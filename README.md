@@ -1,0 +1,2 @@
+# GlobalAiHubIntroductionPython
+GlobalAiHubIntroductionPython for Homework
