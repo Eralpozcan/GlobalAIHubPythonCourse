@@ -75,5 +75,28 @@ print("Vergi tutarı :"+format(tax)+"$ ,bahşiş tutarınız :"+format(tips)+" $
 # In[ ]:
 
 
+import random as rnd
+
+
+def new_list(boyut):
+    
+    list =[]
+    for i in range(boyut):
+        list.append(rnd.randint(2, 100)
+    return list
+
+
+def build_3d(r,c):
+    
+    3dimes=[]
+    for i in range(r):
+        3dimes.append(new_list(c))
+    return 3dimes
+
+
+my3dmatrix = build_3d(3, 3)
+
+print(my3dmatrix)
+
 
 
